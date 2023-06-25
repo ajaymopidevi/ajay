@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ajaymopidevi
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ajaymopidevi/Grouped-BERT
+  - ajaymopidevi/Imaging-Courses
+  - ajaymopidevi/PersAR
+  - Ray-Tracing-using-OpenCL
