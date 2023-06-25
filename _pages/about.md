@@ -6,7 +6,7 @@ subtitle: Computer Science Grad Student at University of Colorado Boulder / Comp
 
 profile:
   align: right
-  image: ![prof_pic.jpg](https://github.com/ajaymopidevi/ajay/blob/master/_pages/profile_pic.jpg)
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   
 news: true  # includes a list of news items
