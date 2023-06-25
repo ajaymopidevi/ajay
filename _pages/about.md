@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Ajay Narasimha Mopidevi
+title: about
 permalink: /
 subtitle: Computer Science Grad Student at University of Colorado Boulder / Computer Vision Engineer at Samsung
 
