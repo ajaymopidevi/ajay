@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>project 1 | Ajay Narasimha  Mopidevi</title>
+    <title>Electron Tomography Segmentation | Ajay Narasimha  Mopidevi</title>
     <meta name="author" content="Ajay Narasimha  Mopidevi">
     <meta name="description" content="a project with a background image">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
@@ -116,48 +116,71 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">project 1</h1>
+            <h1 class="post-title">Electron Tomography Segmentation</h1>
             <p class="post-description">a project with a background image</p>
           </header>
 
           <article>
-            <p>Every project has a beautiful feature showcase page.
-It’s easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.</p>
+            <p>Cryo-electron tomography (cryo-ET) is a powerful imaging technique used to study the three-dimensional (3D) cellular components and macromolecular complexes in their near-native state, providing insights into their organization and interactions. The data acquired can be noisy, and the sample may undergo distortions during the imaging process.</p>
 
-<p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p>
+<p>Using Machine Learning techniques U-Ney and Autoencoder, we are able to successly segment the cellular structures like ribosome, membrane, microtubules, filament.
+    —
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/cryo_segment_all_3D.png
+    —</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: page
-title: project
-description: a project with a background image
-img: /assets/img/12.jpg
----
-</code></pre></div></div>
-
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/1-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/1-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/1-1400.webp"></source>
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 480px)" 
+        srcset="/assets/img/1-480.webp"
+      />
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 800px)" 
+        srcset="/assets/img/1-800.webp"
+      />
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 1400px)" 
+        srcset="/assets/img/1-1400.webp"
+      />
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/1.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;img 
+  src="/assets/img/1.jpg"
+  class="img-fluid rounded z-depth-1"  
+  width="auto" 
+  height="auto" 
+   
+   
+   
+   
+   
+  title="example image" 
+  
+  onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+/&gt;
+</code></pre></div></div>
 
-  </picture>
+<p>&lt;/picture&gt;</p>
 
-</figure>
+<p>&lt;/figure&gt;</p>
 
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;/div&gt;
+&lt;div class="col-sm mt-3 mt-md-0"&gt;
+    &lt;figure&gt;
+</code></pre></div></div>
 
-  <picture>
+<picture>
     
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/3-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/3-800.webp"></source>
@@ -169,13 +192,14 @@ img: /assets/img/12.jpg
 
   </picture>
 
-</figure>
+<p>&lt;/figure&gt;</p>
 
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;/div&gt;
+&lt;div class="col-sm mt-3 mt-md-0"&gt;
+    &lt;figure&gt;
+</code></pre></div></div>
 
-  <picture>
+<picture>
     
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/5-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
@@ -187,10 +211,11 @@ img: /assets/img/12.jpg
 
   </picture>
 
-</figure>
+<p>&lt;/figure&gt;</p>
 
-    </div>
-</div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
@@ -217,34 +242,62 @@ img: /assets/img/12.jpg
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
-
+<p>–&gt;</p>
+<h2> Future Work</h2>
 <p>You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, <em>bled</em> for your project, and then… you reveal its glory in the next row of images.</p>
 
-<div class="row justify-content-sm-center">
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/6-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/6-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/6-1400.webp"></source>
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 480px)" 
+        srcset="/assets/img/6-480.webp"
+      />
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 800px)" 
+        srcset="/assets/img/6-800.webp"
+      />
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 1400px)" 
+        srcset="/assets/img/6-1400.webp"
+      />
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/6.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;img 
+  src="/assets/img/6.jpg"
+  class="img-fluid rounded z-depth-1"  
+  width="auto" 
+  height="auto" 
+   
+   
+   
+   
+   
+  title="example image" 
+  
+  onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+/&gt;
+</code></pre></div></div>
 
-  </picture>
+<p>&lt;/picture&gt;</p>
 
-</figure>
+<p>&lt;/figure&gt;</p>
 
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <figure>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;/div&gt;
+&lt;div class="col-sm-4 mt-3 mt-md-0"&gt;
+    &lt;figure&gt;
+</code></pre></div></div>
 
-  <picture>
+<picture>
     
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/11-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/11-800.webp"></source>
@@ -256,10 +309,11 @@ You describe how you toiled, sweated, <em>bled</em> for your project, and then�
 
   </picture>
 
-</figure>
+<p>&lt;/figure&gt;</p>
 
-    </div>
-</div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
@@ -278,7 +332,7 @@ Here’s the code for the last row of images above:</p>
     <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
-
+<p>–&gt;</p>
 
           </article>
 
