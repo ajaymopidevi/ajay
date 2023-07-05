@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: Grouped Bert for Multi-label Classification
 description: another without an image
 img:
 importance: 3
