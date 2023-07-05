@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ray Tracing using OpenCL
+title: Ray Tracing with OpenCL
 description:  Raytrace a complex scene and optimize the runtime using OPENCL.
 img: assets/img/2.png
 importance: 4
@@ -20,4 +20,7 @@ How many Spheres do you see in the scene?
 2. Added support for loading a obj file as set of triangles and Raytrace the scene with objects.
 3. Added support for raytracing a scene with combination of spheres and triangles. If ray is defined as O+tD (O-origin, D-direction),   the least t of both spheres and triangles is considered as the intersected object.
 4. Added OPENCL support to reduce the runtime.
-5. Created a scene (Mode 4) to display the mirror-like reflections.
+5. Created a scene to display the mirror-like reflections.
+
+Github Repo : <a href="https://github.com/ajaymopidevi/Ray-Tracing-using-OpenCL">Ray-Tracing-using-OpenCL</a>
+Presentation: <a href="https://github.com/ajaymopidevi/Ray-Tracing-using-OpenCL/blob/master/Real-Time%20RayTracing%20using%20OpenCL.pdf">Real-time Raytracing using OpenCL</a>
