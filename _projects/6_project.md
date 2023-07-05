@@ -4,6 +4,7 @@ title: Ray Tracing with OpenCL
 description:  Raytrace a complex scene and optimize the runtime using OPENCL.
 img: assets/img/2.png
 importance: 6
+category: work
 ---
 
 How many Spheres do you see in the scene?
@@ -22,4 +23,5 @@ How many Spheres do you see in the scene?
 5. Created a scene to display the mirror-like reflections.
 
 Github Repo : <a href="https://github.com/ajaymopidevi/Ray-Tracing-using-OpenCL">Ray-Tracing-using-OpenCL</a>
+
 Presentation: <a href="https://github.com/ajaymopidevi/Ray-Tracing-using-OpenCL/blob/master/Real-Time%20RayTracing%20using%20OpenCL.pdf">Real-time Raytracing using OpenCL</a>

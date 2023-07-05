@@ -4,6 +4,7 @@ title: Electron Tomography Segmentation
 description: 
 img: assets/img/14.jpg
 importance: 1
+category: work
 ---
 
 Cryo-electron tomography (cryo-ET) is a powerful imaging technique used to study the three-dimensional (3D) cellular components and macromolecular complexes in their near-native state, providing insights into their organization and interactions. The data acquired can be noisy, and the sample may undergo distortions during the imaging process. 
