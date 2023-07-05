@@ -11,18 +11,18 @@ Designed an Autonomous car of 1/10 scale which is successful to :
 
 - Detects a rolling ball in its track and avoids the collision. Then it again continues in the track.
 <div class="row">
-    <video src="assets/video/avoid_ball.mp4" controls>
-        PersAR.
-    </video>
+    <div class="caption">
+        {% include video.html path="assets/video/avoid_ball.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
 </div>
 
 - Detects a stop sign and waits for 3 sec
 
 - Jump of the ramps placed 1m apart
 <div class="row">
-    <video src="assets/video/jump.mp4" controls>
-        PersAR.
-    </video>
+    <div class="caption">
+        {% include video.html path="assets/video/jump.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
 </div>
 
 
