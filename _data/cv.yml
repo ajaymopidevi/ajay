@@ -14,8 +14,11 @@
     - title: Masters of Science in Computer Science
       institution: University of Colorado Boulder
       year: 2022 - 2023
-      Courses:
-        - Description 1
+      CGPA : 4.0 / 4.0
+    - title: Bachelors of Technology in Electronics and Communication Engineering
+      institution: Indian Institute of Technology (IIT) Guwahati, India
+      year: 2013 - 2017
+      CGPA : 7.57 / 10.0
 
 - title: Publications
   type: time_table
