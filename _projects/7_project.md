@@ -47,4 +47,6 @@ The following equipment was utilized for the project:
 8. 7.2V 1.8A Ni-MH battery
 9. 11.1V (3S) LiPo Battery
 
-<a href="assets/pdf/milk_final_report.pdf">Report
+
+<h1 class="post-title"> <a href="assets/pdf/milk_final_report.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>Report</h1>
+            
