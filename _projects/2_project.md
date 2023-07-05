@@ -3,7 +3,7 @@ layout: page
 title: Radar based navigation
 description: 
 img: assets/img/1.png
-importance: 2
+importance: 7
 category: work
 ---
 
