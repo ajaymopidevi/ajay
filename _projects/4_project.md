@@ -7,74 +7,83 @@ importance: 3
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<a href="https://valueeval.webis.de/">SemEval 2023 Task 4: ValueEval: Identification of Human Values behind Arguments </a>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+ Instead of the modelling the task as a classification problem, we modeled as Natural Language Inference (NIL) problem which determines the logical relationship (human values- output labels) between the argument and the conclusion.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+ Designed Grouped-BERT for Multi-label identification of values behind arguments.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-md-0">
+        {% include figure.html path="assets/img/4.png" title="Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+
+<div>
+  <h2>Results</h2>
+  <table>
+    <tr>
+      <th>Model</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1</th>
+      <th>Accuracy</th>
+    </tr>
+    <tr>
+      <td>1-Baseline</td>
+      <td>0.18</td>
+      <td>1.0</td>
+      <td>0.28</td>
+      <td>0.18</td>
+    </tr>
+    <tr>
+      <td>SVM</td>
+      <td>0.30</td>
+      <td>0.30</td>
+      <td>0.3</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <td>BERT</td>
+      <td>0.39</td>
+      <td>0.30</td>
+      <td>0.34</td>
+      <td>0.84</td>
+    </tr>
+    <tr>
+      <td>L-label classifier</td>
+      <td>0.29</td>
+      <td>0.48</td>
+      <td>0.36</td>
+      <td>0.76</td>
+    </tr>
+    <tr>
+      <td>L-Binary classifiers</td>
+      <td>0.3</td>
+      <td>0.45</td>
+      <td>0.35</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <td>Hybrid + CE loss</td>
+      <td>0.32</td>
+      <td>0.42</td>
+      <td>0.39</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <td>Hybrid + CE + HD loss</td>
+      <td>0.33</td>
+      <td>0.43</td>
+      <td>0.40</td>
+      <td>0.77</td>
+    </tr>
+  </table>
 </div>
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-md-0">
+        {% include figure.html path="assets/img/5.png" title="Comparison of individual test set F1 scores for each of the labels by the different models" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
