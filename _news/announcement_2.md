@@ -1,8 +1,7 @@
 ---
 layout: post
-title: A simple announcement
 date: 2023-06-08 22:11:00-0400
-inline: false
+inline: true
 related_posts: false
 ---
 
