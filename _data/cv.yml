@@ -2,96 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Ajay Narasimha Mopidevi
+    - name : Email
+      value: ajay.mopidevi@colorado.edu
+    - name: Contact
+      value: +1 720 579 6333
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Masters of Science in Computer Science
+      institution: University of Colorado Boulder
+      year: 2022 - 2023
+      Courses:
+        - Description 1
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: <a href="https://arxiv.org/pdf/2306.09523.pdf">Tell Me Where to Go: A Composable Framework for
+Context-Aware Embodied Robot Navigation (Under review CoRL 2023)</a>
+    - title: Grouped BERT for Multi-Label classification to reason the human values behind the arguments (Accepted to ACL
+2023)
+
+- title: Skills
+  type: map
+  contents:
+    - name: Language
+      value: Python, C/C++, Matlab
+    - name : Machine Learning Frameworks
+      value: Pytorch, tensorflow, Keras
+    - name: Tools
+      value: Git,  Visual Studio, PyCharm, Eclipse, IntelliJ, Meshlab, CloudCompare
+    - name: Libraries
+      value: OpenCV, ROS, Open3D, pcl, pandas, numPy, scikit-learn
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Computer Vision Research Engineer 
+      institution: Samsung Semiconductord India R&D, Bangalore, India
+      year: Jul 2020 - Jul 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed 3D scene reconstruction algorithm with only the depth-data from ToF sensors, achieving a real-time
+processing speed of 20fps
+        - Automated the alignment of output 3D scene with groundtruth and improved the accuracy by 5% by detecting
+and removing outliers
+        - Optimized Samsung’s CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby
+reducing the algorithm runtime by 33%
+        - Reduced the latency of Remosaic deep learning models for 200M pixel camera sensor using quantization and
+pruning techniques by 10 % with an unnoticeable degradation of 0.1% in perceptual quality
+    - title: Software Engineer
+      institution: Qualcomm, Bangalore, India
+      year: Aug 2017 - Jun 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Spearheaded the development and maintenance of python audio library to evaluate both the objective and
+perceptual audio quality of the Bluetooth headsets
+        - Enhanced python automated test framework with new features that populate test vectors and visualize audio
+output signals, leading to a 10%-15% reduction in both the validation and development teams’ efforts
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Radar based Navigation 
+      institution: Autonomous Robotics and Perception Group (<a href="https://arpg.github.io/">ARPG</a>)
+      year: Sep 2022 - Present
+      description:
+        - Utilized only the radar data, sparse pointclouds compared to Lidar data, to overcome the challenges in visually
+degraded scenarios and improved the odometry estimation by 8% , using transformer and DeepVO architecture
+        - Developed transformer based architecture for upsampling the sparse mmWave radar FMCW data to dense
+pointclouds, providing more comprehensive spatial information in navigation.
+    - title: Cryo Electron Tomography 
+      institution: Kasinath Aydin Lab
+      year: May 2023 - Present
+      description:
+        - Achieved 92% accuracy in segmenting electron structures like ribosomes, membrane using < 1% of the entire
+tomogram for training
+        - Designed U-Net architectures specifically tailored for tomograms captured at different scales, resulting in a f1 score
+of 78% for segmentation
 
-- title: Honors and Awards
+- title: Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Received Qualstar from Qualcomm for continued excellence in improving the audio quality analysis framework 
+    - year: 2021
       items: 
-        - Max Planck Medal
+        -  Received the Spot Appreciation award twice, given to top 5% performing employees at Samsung
 
-- title: Academic Interests
+- title: Courses
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Computer Vision, Computational Photography, Deep Reinforcement Learning, Natural Language Processing, Advanced Topics in Machine Learning, Computer Graphics, Advanced Robotics
