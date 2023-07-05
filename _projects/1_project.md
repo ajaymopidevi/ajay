@@ -2,7 +2,7 @@
 layout: page
 title: Electron Tomography Segmentation
 description: 
-img: assets/img/cryo_segment_all_2D.jpg
+img: assets/img/14.jpg
 importance: 1
 category: work
 ---
@@ -13,7 +13,7 @@ Using Machine Learning techniques U-Ney and Autoencoder, we are able to successl
 
 <div class="row">
     <div class="col-sm mt-md-0">
-        {% include figure.html path="assets/img/cryo_segment_all_3D.jpg" title="Results" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/15.jpg" title="Results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <h2> Future Work</h2>
