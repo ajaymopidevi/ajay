@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Grouped Bert for Multi-label Classification
-description: another without an image
+img: assets/img/6.jpg
+description: 
 img:
 importance: 3
 category: fun
@@ -18,6 +19,11 @@ category: fun
         {% include figure.html path="assets/img/4.png" title="Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+
+
+
+
 
 
 <div>
@@ -81,6 +87,11 @@ category: fun
     </tr>
   </table>
 </div>
+
+
+
+
+
 
 <div class="row">
     <div class="col-sm mt-md-0">
