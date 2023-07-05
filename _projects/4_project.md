@@ -5,7 +5,6 @@ img: assets/img/6.jpg
 description: 
 img:
 importance: 3
-category: fun
 ---
 
 <a href="https://valueeval.webis.de/">SemEval 2023 Task 4: ValueEval: Identification of Human Values behind Arguments </a>

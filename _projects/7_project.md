@@ -4,7 +4,6 @@ title: Autonomous car - 1/10 scale
 description:  
 img: assets/img/8.jpg
 importance: 2
-category: fun
 ---
 
 Designed an Autonomous car of 1/10 scale which is successful to :

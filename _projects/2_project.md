@@ -4,7 +4,6 @@ title: Radar based navigation
 description: 
 img: assets/img/1.png
 importance: 7
-category: work
 ---
 
 Every project has a beautiful feature showcase page.

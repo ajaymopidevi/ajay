@@ -4,7 +4,6 @@ title: Ray Tracing with OpenCL
 description:  Raytrace a complex scene and optimize the runtime using OPENCL.
 img: assets/img/2.png
 importance: 6
-category: fun
 ---
 
 How many Spheres do you see in the scene?
