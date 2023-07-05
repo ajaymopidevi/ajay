@@ -20,10 +20,8 @@
 - title: Publications
   type: time_table
   contents:
-    - title: <a href="https://arxiv.org/pdf/2306.09523.pdf">Tell Me Where to Go: A Composable Framework for
-Context-Aware Embodied Robot Navigation (Under review CoRL 2023)</a>
-    - title: Grouped BERT for Multi-Label classification to reason the human values behind the arguments (Accepted to ACL
-2023)
+    - title: <a href="https://arxiv.org/pdf/2306.09523.pdf"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation (Under review CoRL 2023)</a>
+    - title: Grouped BERT for Multi-Label classification to reason the human values behind the arguments (Accepted to ACL 2023)
 
 - title: Skills
   type: map
@@ -44,22 +42,16 @@ Context-Aware Embodied Robot Navigation (Under review CoRL 2023)</a>
       institution: Samsung Semiconductord India R&D, Bangalore, India
       year: Jul 2020 - Jul 2022
       description:
-        - Developed 3D scene reconstruction algorithm with only the depth-data from ToF sensors, achieving a real-time
-processing speed of 20fps
-        - Automated the alignment of output 3D scene with groundtruth and improved the accuracy by 5% by detecting
-and removing outliers
-        - Optimized Samsung’s CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby
-reducing the algorithm runtime by 33%
-        - Reduced the latency of Remosaic deep learning models for 200M pixel camera sensor using quantization and
-pruning techniques by 10 % with an unnoticeable degradation of 0.1% in perceptual quality
+        - Developed 3D scene reconstruction algorithm with only the depth-data from ToF sensors, achieving a real-time processing speed of 20fps
+        - Automated the alignment of output 3D scene with groundtruth and improved the accuracy by 5% by detecting and removing outliers
+        - Optimized Samsung’s CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby reducing the algorithm runtime by 33%
+        - Reduced the latency of Remosaic deep learning models for 200M pixel camera sensor using quantization and pruning techniques by 10 % with an unnoticeable degradation of 0.1% in perceptual quality
     - title: Software Engineer
       institution: Qualcomm, Bangalore, India
       year: Aug 2017 - Jun 2020
       description:
-        - Spearheaded the development and maintenance of python audio library to evaluate both the objective and
-perceptual audio quality of the Bluetooth headsets
-        - Enhanced python automated test framework with new features that populate test vectors and visualize audio
-output signals, leading to a 10%-15% reduction in both the validation and development teams’ efforts
+        - Spearheaded the development and maintenance of python audio library to evaluate both the objective and perceptual audio quality of the Bluetooth headsets
+        - Enhanced python automated test framework with new features that populate test vectors and visualize audio output signals, leading to a 10%-15% reduction in both the validation and development teams’ efforts
 
 - title: Projects
   type: time_table
@@ -68,18 +60,14 @@ output signals, leading to a 10%-15% reduction in both the validation and develo
       institution: Autonomous Robotics and Perception Group (<a href="https://arpg.github.io/">ARPG</a>)
       year: Sep 2022 - Present
       description:
-        - Utilized only the radar data, sparse pointclouds compared to Lidar data, to overcome the challenges in visually
-degraded scenarios and improved the odometry estimation by 8% , using transformer and DeepVO architecture
-        - Developed transformer based architecture for upsampling the sparse mmWave radar FMCW data to dense
-pointclouds, providing more comprehensive spatial information in navigation.
+        - Utilized only the radar data, sparse pointclouds compared to Lidar data, to overcome the challenges in visually degraded scenarios and improved the odometry estimation by 8% , using transformer and DeepVO architecture
+        - Developed transformer based architecture for upsampling the sparse mmWave radar FMCW data to dense pointclouds, providing more comprehensive spatial information in navigation.
     - title: Cryo Electron Tomography 
       institution: Kasinath Aydin Lab
       year: May 2023 - Present
       description:
-        - Achieved 92% accuracy in segmenting electron structures like ribosomes, membrane using < 1% of the entire
-tomogram for training
-        - Designed U-Net architectures specifically tailored for tomograms captured at different scales, resulting in a f1 score
-of 78% for segmentation
+        - Achieved 92% accuracy in segmenting electron structures like ribosomes, membrane using < 1% of the entire tomogram for training
+        - Designed U-Net architectures specifically tailored for tomograms captured at different scales, resulting in a f1 score of 78% for segmentation
 
 - title: Awards
   type: time_table
