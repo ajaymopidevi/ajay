@@ -23,4 +23,5 @@ In addition to my work in visual language navigation, I am also working on radar
 
 I am also working with Kasinath's lab at CU Boulder to segment the cellular structures like <a href="projects/1_project">ribosomes, membrane, micro-tubules, filaments</a> from the Cryo-ET tomogram. Cryo Electron Tomography combines cryogenic sample preparation, electron microscopy and computational image analysis to visualize the internal cellular structures and macro-molecules in their native state. Limiting the annotaions to <1% of entire images, we used machine learning techniques like Auto-encoders and U-Net to segment these structures.
 
-<!-- Prior to my master's, I worked at Samsung in the Advanced Multimedia Solutions Team, developing a -->
+Before pursuing my master's degree, I was part of Samsung's Advanced Multimedia Solutions team in the Camera division. There, I focused on developing computer vision algorithms, combining traditional and deep-learning approaches, to enhance the performance and accuracy of Samsung Camera sensors. A significant accomplishment was my work on real-time 3D reconstruction algorithms utilizing only range data from ToF sensors.  
+
