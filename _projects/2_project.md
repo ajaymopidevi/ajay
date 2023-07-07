@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Radar based navigation
 description: 
@@ -17,4 +17,4 @@ To give your project a background in the portfolio page, just add the img tag to
     <div class="caption">
         {% include figure.html path="assets/img/2.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+</div> -->
