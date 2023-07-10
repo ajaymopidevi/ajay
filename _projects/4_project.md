@@ -6,7 +6,7 @@ description:
 importance: 3
 category: work
 ---
-<h1 class="post-title"> <a href="../../assets/pdf/Quintilian_at_SemEval_2023_Task_4__Grouped_BERT_for_Multi_Label_classification.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a></h1>
+<h1 class="post-title"> <a href="https://aclanthology.org/2023.semeval-1.222" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a></h1>
 <a href="https://valueeval.webis.de/">SemEval 2023 Task 4: ValueEval: Identification of Human Values behind Arguments </a>
 
  Instead of the modelling the task as a classification problem, we modeled as Natural Language Inference (NIL) problem which determines the logical relationship (human values- output labels) between the argument and the conclusion.
