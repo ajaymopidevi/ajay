@@ -529,8 +529,9 @@ footer.sticky-bottom {
 .projects .grid-sizer,
 .projects .grid-item {
   width: 250px;
+  height: 350px;
   margin-bottom: 25px;
-  margin-left: 20px;
+  margin-right: 15px;
 }
 .projects h2.category {
   color: var(--global-divider-color);
