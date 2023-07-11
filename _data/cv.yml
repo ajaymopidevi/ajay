@@ -15,16 +15,16 @@
       institution: University of Colorado Boulder
       year: 2022 - 2023
       CGPA : 4.0 / 4.0
-    - title: Bachelors of Technology in Electronics and Communication Engineering (CGPA - 7.57 / 10.0)
+    - title: Bachelors of Technology in Electronics and Communication Engineering 
       institution: Indian Institute of Technology (IIT) Guwahati, India
       year: 2013 - 2017
-      CGPA : 7.57 / 10.0
+      
 
 - title: Publications
   type: time_table
   contents:
-    - title: <a href="https://arxiv.org/pdf/2306.09523.pdf"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation (Under review CoRL 2023)</a>
-    - title: Grouped BERT for Multi-Label classification to reason the human values behind the arguments (Accepted to ACL 2023)
+    - title: <a href="https://arxiv.org/pdf/2306.09523.pdf"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation</a>
+    - title: <a href="https://aclanthology.org/2023.semeval-1.222">Grouped BERT for Multi-Label classification to reason the human values behind the arguments </a>
 
 - title: Skills
   type: map
@@ -85,4 +85,11 @@
 - title: Courses
   type: nested_list
   contents:
-    - title: Computer Vision, Computational Photography, Deep Reinforcement Learning, Natural Language Processing, Advanced Topics in Machine Learning, Computer Graphics, Advanced Robotics
+    - items: 
+        -   Computer Vision 
+        -   Computational Photography
+        -   Deep Reinforcement Learning
+        -   Natural Language Processing
+        -   Advanced Topics in Machine Learning
+        -   Computer Graphics
+        -   Advanced Robotics
