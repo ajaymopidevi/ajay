@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Radar based mapping anf navigation
+title: Radar based mapping and navigation
 description: 
 img: assets/img/Rmap.png
 importance: 1

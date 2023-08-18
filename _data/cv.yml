@@ -24,7 +24,7 @@
   type: time_table
   contents:
     - title: <a href="https://arxiv.org/pdf/2306.09523.pdf"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation</a>
-    - title: "MultiNavCon: A Multi-Agent Framework for Landmark-Guided, Language-Based Navigation", International Symposium on Experimental Robotics, 2023 (under review)
+    - title: 'MultiNavCon: A Multi-Agent Framework for Landmark-Guided, Language-Based Navigation', International Symposium on Experimental Robotics, 2023 (under review)
     - title: <a href="https://aclanthology.org/2023.semeval-1.222">Grouped BERT for Multi-Label classification to reason the human values behind the arguments </a>
 
 - title: Skills
