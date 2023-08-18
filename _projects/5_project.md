@@ -3,7 +3,7 @@ layout: page
 title: PersAR
 description: Simple AR application
 img: assets/img/3.png
-importance: 5
+importance: 6
 category: work
 ---
 

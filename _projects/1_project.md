@@ -3,7 +3,7 @@ layout: page
 title: Electron Tomography Segmentation
 description: 
 img: assets/img/10.jpg
-importance: 1
+importance: 2
 category: work
 ---
 
@@ -22,7 +22,12 @@ Using Machine Learning techniques U-Net and Autoencoder, we are able to successl
         {% include figure.html path="assets/img/11.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<h2> Future Work</h2>
-Extend the model to segment structures from different tomogram captured at different pixel size, without any additional annotations.
+
+Our Contributions:
+1. Developed a Multi-UNet architecture to improve the performance of multi-class segmentation by 15%
+2. Added different strategies to effectively train the deep learning U-Net architectures from a sparsely labelled tomogram images.
+3. Achieved 92% accuracy in segmenting electron structures like ribosomes, membrane using <1% of the entire tomogram for training
+4. Designed U-NeXt architectures, combining the ConvNeXt and U-Net, specifically tailored for tomograms captured at different scales, resulting in a f1 score of 85% for segmentation
+
 
 

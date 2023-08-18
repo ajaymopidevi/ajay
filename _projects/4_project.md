@@ -3,7 +3,7 @@ layout: page
 title: Grouped Bert for Multi-label Classification
 img: assets/img/6.jpg
 description: 
-importance: 3
+importance: 4
 category: work
 ---
 <h1 class="post-title"> <a href="https://aclanthology.org/2023.semeval-1.222" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a></h1>

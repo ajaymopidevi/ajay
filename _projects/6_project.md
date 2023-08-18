@@ -3,7 +3,7 @@ layout: page
 title: Ray Tracing with OpenCL
 description:  Raytrace a complex scene and optimize the runtime using OPENCL.
 img: assets/img/2.png
-importance: 6
+importance: 7
 category: work
 ---
 

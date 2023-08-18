@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science Grad Student at University of Colorado Boulder | Computer Vision Engineer at Samsung
+subtitle: CS Grad Student at University of Colorado Boulder | Computer Vision Engineer at Samsung
 
 profile:
   align: right

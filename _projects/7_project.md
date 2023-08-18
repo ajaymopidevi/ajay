@@ -3,7 +3,7 @@ layout: page
 title: Autonomous car - 1/10 scale
 description:  
 img: assets/img/8.jpg
-importance: 2
+importance: 5
 category: work
 ---
 <h1 class="post-title"> <a href="../../assets/pdf/milk_final_report.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a></h1>
