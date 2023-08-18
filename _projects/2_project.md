@@ -18,12 +18,12 @@ To address these issues, we developed :
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Radar.png" title="Radar Input Map" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Radar.png" title="Radar Input Map" caption="Radar Input Map" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Radar_reconstructed.png" title="Radar Reconstructed Map" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Radar_reconstructed.png" title="Radar Reconstructed Map" caption="Radar Reconstructed Map" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lidar.png" title="Lidar GT Map" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lidar.png" title="Lidar GT Map" caption="Lidar GT Map" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
