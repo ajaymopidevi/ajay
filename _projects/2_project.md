@@ -2,7 +2,7 @@
 layout: page
 title: Radar based mapping and navigation
 description: 
-img: assets/img/Rmap.png
+img: assets/img/Rmap.jpg
 importance: 1
 category: work
 ---
