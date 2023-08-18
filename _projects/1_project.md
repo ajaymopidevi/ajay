@@ -2,7 +2,7 @@
 layout: page
 title: Electron Tomography Segmentation
 description: 
-img: assets/img/10.jpg
+img: assets/img/RMap.png
 importance: 2
 category: work
 ---

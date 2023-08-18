@@ -24,6 +24,7 @@
   type: time_table
   contents:
     - title: <a href="https://arxiv.org/pdf/2306.09523.pdf"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation</a>
+    - title: "MultiNavCon: A Multi-Agent Framework for Landmark-Guided, Language-Based Navigation", International Symposium on Experimental Robotics, 2023 (under review)
     - title: <a href="https://aclanthology.org/2023.semeval-1.222">Grouped BERT for Multi-Label classification to reason the human values behind the arguments </a>
 
 - title: Skills
@@ -75,21 +76,29 @@
 - title: Awards
   type: time_table
   contents:
+    - year: 2022
+      items:
+        - Received Employer of the Month at Samsung, for successfully optimizing the noise reduction algorithm to reduce runtime by 33%
+    - year: 2020
+      items: 
+        -  Received the Spot Appreciation award, for exceptional performance in delivering the 3D reconstruction pipeline for Samsung's ToF sensors
     - year: 2019
       items: 
         - Received Qualstar from Qualcomm for continued excellence in improving the audio quality analysis framework 
-    - year: 2021
-      items: 
-        -  Received the Spot Appreciation award twice, given to top 5% performing employees at Samsung
+    
 
 - title: Courses
   type: nested_list
   contents:
     - items: 
         -   Computer Vision 
-        -   Computational Photography
+        -   Advanced Topics in Computer Vision
         -   Deep Reinforcement Learning
         -   Natural Language Processing
         -   Advanced Topics in Machine Learning
-        -   Computer Graphics
         -   Advanced Robotics
+        -   Computational Photography
+        -   Computer Graphics
+        -   Sensor Fusion
+        
+        
