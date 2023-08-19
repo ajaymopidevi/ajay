@@ -7,7 +7,7 @@ importance: 6
 category: work
 ---
 
-Over the course of tracking an objecting, the surrounding environmental conditions lighting, occlusion, scale etc might change, which often become challenging the Object tracker.
+Over the course of tracking an object, the surrounding environmental conditions lighting, occlusion, scale etc might change, which often become challenging the Object tracker.
 
 To address these changes in environment, we :
 1. Detect the situational changes like illumination, occlusion and scale
