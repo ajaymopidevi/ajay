@@ -2,7 +2,7 @@
 layout: page
 title: Tell me where to go 
 description: 
-img: assets/img/9.png
+img: assets/img/9.jpg
 importance: 3
 category: work
 ---
