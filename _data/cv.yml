@@ -33,45 +33,48 @@
     - name: Language
       value: Python, C/C++, Matlab
     - name : Machine Learning Frameworks
-      value: Pytorch, tensorflow, Keras
+      value: Pytorch, Tensorflow, Keras
+    - name: Libraries
+      value: OpenCV, ROS, Open3D, pcl, pandas, NumPy, scikit-learn, scipy, Matplotlib
     - name: Tools
       value: Git,  Visual Studio, PyCharm, Eclipse, IntelliJ, Meshlab, CloudCompare
-    - name: Libraries
-      value: OpenCV, ROS, Open3D, pcl, pandas, numPy, scikit-learn
-
+    
 - title: Experience
   type: time_table
   contents:
+    - title: Research Assistant 
+      institution: <a href="https://arpg.github.io/">Autonomous Robotics and Perception Group</a>
+      year: Sep 2022 - Present
+      description:
+        - Designed NavCon, a low bandwidth robot navigation framework using Large Language Models(<b>LLM</b>s), achieving a 71.3% success rate in guiding a <b>Spot</b> robot through intricate human commands in various environments
+        - Utilized only the radar data, sparse pointclouds compared to Lidar data, to overcome the challenges in visually degraded scenarios and improved the odometry estimation by 8% , using transformer and DeepVO architectures
+        - Developed generative transformer architecture for denoising radar pointclouds and generating the incomplete sections in them. Used transformed pointclouds to provide more spatial information in localization and mapping
+    - title: Research Assistant 
+      institution: <a href="http://cryoem.colorado.edu/">Vignesh Kasinath Lab</a>
+      year: Apr 2023 - Present
+      description:
+        - Achieved 92% accuracy in segmenting cellular structures like ribosomes and membranes using 1 % of the entire tomogram for training
+        - Designed U-NeXt architectures, combining the ConvNeXt and U-Net, specifically tailored for tomograms captured at different scales, resulting in a f1 score of 85% for segmentation
     - title: Computer Vision Research Engineer 
-      institution: Samsung Semiconductord India R&D, Bangalore, India
+      institution: Samsung Semiconductord India R&D
       year: Jul 2020 - Jul 2022
       description:
-        - Developed 3D scene reconstruction algorithm with only the depth-data from ToF sensors, achieving a real-time processing speed of 20fps
-        - Automated the alignment of output 3D scene with groundtruth and improved the accuracy by 5% by detecting and removing outliers
-        - Optimized Samsung’s CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby reducing the algorithm runtime by 33%
+        - Developed <b>3D scene reconstruction</b> algorithm, exclusively leveraging depth from ToF sensors, achieving a real-time processing speed of <b>20fps</b>
+        - Improved the <b>accuracy by 5%</b> by detecting and removing outliers and also automated the pose alignment of output 3D scene with groundtruth to eliminate the manual alignment in MeshLab
         - Reduced the latency of Remosaic deep learning models for 200M pixel camera sensor using quantization and pruning techniques by 10 % with an unnoticeable degradation of 0.1% in perceptual quality
+        - Optimized Samsung’s CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby reducing the algorithm runtime by 33%
     - title: Software Engineer
-      institution: Qualcomm, Bangalore, India
+      institution: Qualcomm
       year: Aug 2017 - Jun 2020
       description:
         - Spearheaded the development and maintenance of python audio library to evaluate both the objective and perceptual audio quality of the Bluetooth headsets
         - Enhanced python automated test framework with new features that populate test vectors and visualize audio output signals, leading to a 10%-15% reduction in both the validation and development teams’ efforts
+    - title: Research Intern
+      institution: <a href="https://www.uncannyvision.com/">Eagle Eye Networks</a> 
+      year: May 2017 - Jul 2017
+      description:
+        - Leveraged YOLO for object localization, optical flow for trajectory estimation, achieving 83% accuracy in detecting location and trajectory anomalies through Incremental Spherical Clustering and frequency heatmap
 
-- title: Projects
-  type: time_table
-  contents:
-    - title: Radar based Navigation 
-      institution: Autonomous Robotics and Perception Group (<a href="https://arpg.github.io/">ARPG</a>)
-      year: Sep 2022 - Present
-      description:
-        - Utilized only the radar data, sparse pointclouds compared to Lidar data, to overcome the challenges in visually degraded scenarios and improved the odometry estimation by 8% , using transformer and DeepVO architecture
-        - Developed transformer based architecture for upsampling the sparse mmWave radar FMCW data to dense pointclouds, providing more comprehensive spatial information in navigation.
-    - title: Cryo Electron Tomography 
-      institution: Kasinath Aydin Lab
-      year: May 2023 - Present
-      description:
-        - Achieved 92% accuracy in segmenting electron structures like ribosomes, membrane using < 1% of the entire tomogram for training
-        - Designed U-Net architectures specifically tailored for tomograms captured at different scales, resulting in a f1 score of 78% for segmentation
 
 - title: Awards
   type: time_table
@@ -91,12 +94,12 @@
   type: nested_list
   contents:
     - items: 
-        -   Computer Vision 
         -   Advanced Topics in Computer Vision
         -   Deep Reinforcement Learning
         -   Natural Language Processing
         -   Advanced Topics in Machine Learning
         -   Advanced Robotics
+        -   Computer Vision 
         -   Computational Photography
         -   Computer Graphics
         -   Sensor Fusion
