@@ -21,6 +21,7 @@
 - title: Publications
   type: time_table
   contents:
+    - title: RMap Millimiter-Wave Radar Mapping through Volumetric Upsampling
     - title: <a href="https://arxiv.org/pdf/2306.09523.pdf"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation</a>
     - title: MultiNavCon An Architecture for Language-Directed Navigation of Multiple Robots
     - title: <a href="https://aclanthology.org/2023.semeval-1.222">Grouped BERT for Multi-Label classification to reason the human values behind the arguments </a>
@@ -44,7 +45,7 @@
       institution: <a href="https://arpg.github.io/">Autonomous Robotics and Perception Group</a>
       year: Sep 2022 - Present
       description:
-        - Developed the state-of-the-art generative transformer, <b>UpPoinTr</b>, for enhancing volumetric maps from sparse and noisy radar scans, surpassing the prior models by 8% in performance and generate <b>lidar-like navigable maps</b>
+        - Devised the generative transformer architecture, <b>UpPoinTr</b>, for enhancing volumetric maps from sparse and noisy radar scans, surpassing the prior models by 8% in performance and generate <b>lidar like navigable maps</b>
         - Designed NavCon, a low bandwidth robot navigation framework using Large Language Models(<b>LLM</b>s), achieving a 71.3% success rate in guiding a <b>Spot</b> robot through intricate human commands in various environments
         - Utilized only the radar data, sparse pointclouds compared to Lidar data, to overcome the challenges in visually degraded scenarios and improved the odometry estimation by 8% , using transformer and DeepVO architectures
     - title: Research Assistant 
@@ -60,7 +61,7 @@
         - Developed <b>3D scene reconstruction</b> algorithm, exclusively leveraging depth from ToF sensors, achieving a real-time processing speed of <b>20fps</b>
         - Improved the <b>accuracy by 5%</b> by detecting and removing outliers and also automated the pose alignment of output 3D scene with groundtruth to eliminate the manual alignment in MeshLab
         - Reduced the latency of Remosaic deep learning models for 200M pixel camera sensor using quantization and pruning techniques by 10 % with an unnoticeable degradation of 0.1% in perceptual quality
-        - Optimized Samsung CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby reducing the algorithm runtime by 33%
+        - Optimized Samsung’s CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby reducing the algorithm runtime by 33%
     - title: Software Engineer
       institution: Qualcomm
       year: Aug 2017 - Jun 2020
