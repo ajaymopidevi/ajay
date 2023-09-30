@@ -52,7 +52,7 @@
       institution: <a href="http://cryoem.colorado.edu/">Vignesh Kasinath Lab</a>
       year: Apr 2023 - Present
       description:
-        - Achieved 92% accuracy in segmenting cellular structures like ribosomes and membranes using 1 % of the entire tomogram for training
+        - Devised <b>Multi-UNet</b> architecture, seamlessly integrating the segmentation of multiple structures, resulting in a sub￾stantial <b>13%</b> boost in F1-score
         - Designed U-NeXt architectures, combining the ConvNeXt and U-Net, specifically tailored for tomograms captured at different scales, resulting in a f1 score of 85% for segmentation
     - title: Computer Vision Research Engineer 
       institution: Samsung Semiconductord India R&D
