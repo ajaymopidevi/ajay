@@ -45,15 +45,15 @@
       institution: <a href="https://arpg.github.io/">Autonomous Robotics and Perception Group</a>
       year: Sep 2022 - Present
       description:
-        - Devised the generative transformer architecture, <b>UpPoinTr</b>, for enhancing volumetric maps from sparse and noisy radar scans, surpassing the prior models by 8% in performance and generate <b>lidar like navigable maps</b>
         - Designed NavCon, a low bandwidth robot navigation framework using Large Language Models(<b>LLM</b>s), achieving a 71.3% success rate in guiding a <b>Spot</b> robot through intricate human commands in various environments
         - Utilized only the radar data, sparse pointclouds compared to Lidar data, to overcome the challenges in visually degraded scenarios and improved the odometry estimation by 8% , using transformer and DeepVO architectures
+        - Developed generative transformer architecture for denoising radar pointclouds and generating the incomplete sections in them. Used transformed pointclouds to provide more spatial information in localization and mapping
     - title: Research Assistant 
       institution: <a href="http://cryoem.colorado.edu/">Vignesh Kasinath Lab</a>
       year: Apr 2023 - Present
       description:
-        - Devised <b>Multi-UNet</b> architecture, seamlessly integrating the segmentation of multiple structures, resulting in a sub￾stantial <b>13%</b> boost in F1-score
-        - Designed <b>U-NeXt</b> architectures, combining the ConvNeXt and U-Net, specifically tailored for tomograms captured at different scales, resulting in a f1 score of <b>85%</b> for segmentation
+        - Achieved 92% accuracy in segmenting cellular structures like ribosomes and membranes using 1 % of the entire tomogram for training
+        - Designed U-NeXt architectures, combining the ConvNeXt and U-Net, specifically tailored for tomograms captured at different scales, resulting in a f1 score of 85% for segmentation
     - title: Computer Vision Research Engineer 
       institution: Samsung Semiconductord India R&D
       year: Jul 2020 - Jul 2022
