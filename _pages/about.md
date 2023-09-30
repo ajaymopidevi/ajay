@@ -30,7 +30,7 @@ In addition to my work in visual language navigation, I am also working on radar
 
 <div class="row">
     <div class="caption">
-        {% include video.html path="assets/video/RMap.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true height=200 width=200 %}
+        {% include video.html path="assets/video/RMap.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true height=400 width=400 %}
     </div>
 </div>
 
