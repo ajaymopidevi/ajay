@@ -26,11 +26,11 @@ With the <a href="https://arpg.github.io/">Autonomous and Robotics Perception Gr
     </div>
 </div>
 
-In addition to my work in visual language navigation, I am also working on radar-based navigation and mapping to enable the perception systems to function properly even in extreme weather conditions like smoke, fog etc. Even though radar sensors are proven to be effective in these environments, they pose additional challenges like sparse data representations and multi-path reflections. <a href="https://ajaymopidevi.github.io/ajay/projects/2_project/">My current contributions</a> have been submitted to <a href="http://ieee-icra.org/">ICRA</a> and currently under review.
+In addition to my work in visual language navigation, I am also working on radar-based navigation and mapping to enable the perception systems to function properly even in extreme weather conditions like smoke, fog etc. Even though radar sensors are proven to be effective in these environments, they pose additional challenges like sparse data representations and multi-path reflections. We developed the state-of-the-art generative transformer, UpPoinTr, for enhancing volumetric radar maps surpassing the prior models by 8% in performance and generate lidar-like navigable maps. <a href="https://ajaymopidevi.github.io/ajay/projects/2_project/">My current contributions</a> have been submitted to <a href="http://ieee-icra.org/">ICRA</a> and currently under review.
 
 <div class="row">
     <div class="caption">
-        {% include video.html path="assets/video/RMap.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true height=400 %}
+        {% include video.html path="assets/video/RMap.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true height=400 width=200 %}
     </div>
 </div>
 
