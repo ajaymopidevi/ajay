@@ -17,6 +17,12 @@ social: true  # includes social icons at the bottom of the page
 
 I am 2nd year Research based Master's student in Computer Science at University of Colorado Boulder. I am highly interested the fields of Computer Vision and Robotics and fascinated by the potential of fully autonomous systems. 
 
+<div class="row">
+    <div class="caption">
+        {% include video.html path="assets/video/SpotFinalNoBlurMontage.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+
 With the <a href="https://arpg.github.io/">Autonomous and Robotics Perception Group (ARPG)</a> at CU Boulder, I am currently working on integrating the vast prior information inherent in Large Language Models (LLMs) e.g., GPT-4 and enabling the robots to understand where to go  from a user’s instruction. My contributions to this project at ARPG have directly led to 2 co-authored publications on a natural language-based robotics navigation, currently under review at <a href="https://www.corl2023.org/">CoRL</a> and <a href="https://iser2023.org/">ISER</a>. 
 
 In addition to my work in visual language navigation, I am also working on radar-based navigation and mapping to enable the perception systems to function properly even in extreme weather conditions like smoke, fog etc. Even though radar sensors are proven to be effective in these environments, they pose additional challenges like sparse data representations and multi-path reflections. <a href="https://ajaymopidevi.github.io/ajay/projects/2_project/">My current contributions</a> have been submitted to <a href="http://ieee-icra.org/">ICRA</a> and currently under review.

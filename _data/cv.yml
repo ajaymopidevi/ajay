@@ -5,9 +5,7 @@
       value: Ajay Narasimha Mopidevi
     - name : Email
       value: ajay.mopidevi@colorado.edu
-    - name: Contact
-      value: +1 720 579 6333
-
+   
 - title: Education
   type: time_table
   contents:
