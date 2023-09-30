@@ -21,9 +21,9 @@
 - title: Publications
   type: time_table
   contents:
-    - title: RMap Millimiter-Wave Radar Mapping through Volumetric Upsampling 
-    - title: <a href="https://arxiv.org/pdf/2306.09523.pdf"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation</a>
-    - title: MultiNavCon An Architecture for Language-Directed Navigation of Multiple Robots
+    - title: RMap Millimiter-Wave Radar Mapping through Volumetric Upsampling (under review at ICRA 2024)
+    - title: <a href="https://arxiv.org/pdf/2306.09523.pdf"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation</a> (Accepted at CoRL 2023)
+    - title: MultiNavCon An Architecture for Language-Directed Navigation of Multiple Robots (under review at ICRA 2024)
     - title: <a href="https://aclanthology.org/2023.semeval-1.222">Grouped BERT for Multi-Label classification to reason the human values behind the arguments </a>
 
 - title: Skills
