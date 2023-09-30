@@ -25,6 +25,6 @@ Humans have the remarkable ability to navigate through unfamiliar environments b
 
 <div class="row">
     <div class="caption">
-        {% include video.html path="assets/video/SpotFinalNoBlur1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/SpotFinalNoBlur.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>

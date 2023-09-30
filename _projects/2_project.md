@@ -17,7 +17,7 @@ To address these issues, we developed :
 System Diagram:
 <div class="row">
     <div class="col-sm mt-md-0">
-        {% include figure.html path="assets/img/RMap_overview.png" title="Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RMap_Overview.png" title="Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
