@@ -126,63 +126,45 @@
 
 <p>To address these issues, we developed :</p>
 <ol>
-  <li>A generative transformer architecture which can interpret noisy, low-res and incomplete pointcloud to a navigable map.</li>
-  <li>Dataset which partial radar maps and groundruth lidar maps</li>
-  <li>Pose sampling to effectively represent large number of points, required for a map in the environment. Our pose sampling captures 99.99% of the data, compared to 80% data captured using random sampling.</li>
-  <li>A navigation metric, using the state-of-the-art path planners, to assess the quality of generated radar maps in navigation.</li>
+  <li>A generative transformer architecture, UpPoinTr, which can interpret noisy, low-res and incomplete pointcloud to a navigable map.</li>
+  <li>Pose-based region sampling algorithm, which effectively represents the 3D maps as partial point clouds</li>
+  <li>Dataset with 3D radar maps and groundruth lidar maps</li>
 </ol>
 
+<p>System Diagram:</p>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-md-0">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Radar-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Radar-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Radar-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/RMap_overview-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/RMap_overview-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/RMap_overview-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/Radar.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Radar Input Map" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/RMap_overview.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Architecture" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-  </picture><figcaption class="caption">Radar Input Map</figcaption>
+  </picture>
 
 </figure>
 
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+</div>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Radar_reconstructed-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Radar_reconstructed-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Radar_reconstructed-1400.webp"></source>
-    
+<p>Demo:</p>
+<div class="row">
+    <div class="caption">
+        
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/Radar_reconstructed.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Radar Reconstructed Map" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+<figure>
 
-  </picture><figcaption class="caption">Radar Reconstructed Map</figcaption>
+  
 
-</figure>
+  <video src="/assets/video/RMap.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" autoplay="" controls=""></video>
 
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Lidar-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Lidar-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Lidar-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/Lidar.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Lidar GT Map" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture><figcaption class="caption">Lidar GT Map</figcaption>
+  
 
 </figure>
 
