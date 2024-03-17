@@ -15,13 +15,13 @@ To address these changes in environment, we :
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div >
         {% include figure.html path="assets/img/Illumination.png" title="Illumination" caption="Object Tracking in multiple Illumination changes" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div >
         {% include figure.html path="assets/img/Occlusion.png" title="Occlusion" caption="Object Tracking in multiple Occlusion changes" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div >
         {% include figure.html path="assets/img/Scale.png" title="Scale" caption="Object Tracking in multiple Scale changes" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
