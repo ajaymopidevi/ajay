@@ -4,14 +4,14 @@
     - name: Full Name
       value: Ajay Narasimha Mopidevi
     - name : Email
-      value: ajay.mopidevi@colorado.edu
+      value: ajaynmopidevi@gmail.com
    
 - title: Education
   type: time_table
   contents:
     - title: Masters of Science in Computer Science  (CGPA - 4.0 / 4.0)
       institution: University of Colorado Boulder
-      year: 2022 - 2023
+      year: 2022 - 2024
       CGPA : 4.0 / 4.0
     - title: Bachelors of Technology in Electronics and Communication Engineering 
       institution: Indian Institute of Technology (IIT) Guwahati, India
@@ -21,10 +21,10 @@
 - title: Publications
   type: time_table
   contents:
-    - title: RMap Millimiter-Wave Radar Mapping through Volumetric Upsampling (under review at ICRA 2024)
-    - title: <a href="https://arxiv.org/pdf/2306.09523.pdf"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation</a> (Accepted at CoRL 2023)
-    - title: MultiNavCon An Architecture for Language-Directed Navigation of Multiple Robots (under review at ICRA 2024)
-    - title: <a href="https://aclanthology.org/2023.semeval-1.222">Grouped BERT for Multi-Label classification to reason the human values behind the arguments </a>
+    - title: <a href="https://ieeexplore.ieee.org/abstract/document/10801827">RMap Millimiter-Wave Radar Mapping through Volumetric Upsampling (IROS 2024)
+    - title: <a href="https://openreview.net/forum?id=fviZhMCr62"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation</a> (CoRL 2023)
+    - title: CryoSegment: Simultaneous Segmentation of diverse cellualr structures from Cryo-ET images (under review for Nature Methods)
+    - title: <a href="https://aclanthology.org/2023.semeval-1.222">Grouped BERT for Multi-Label classification to reason the human values behind the arguments </a> (Sem-EVal 2023)
 
 - title: Skills
   type: map
