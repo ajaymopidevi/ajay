@@ -6,7 +6,7 @@ img: assets/img/8.jpg
 importance: 5
 category: work
 ---
-<h1 class="post-title"> <a href="../../assets/pdf/milk_final_report.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a></h1>
+<!-- <h1 class="post-title"> <a href="../../assets/pdf/milk_final_report.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a></h1> -->
 Designed an Autonomous car of 1/10 scale which is successfully :
 
 - Detects a rolling ball in its track and avoids the collision. Then it again continues in the track.
