@@ -21,7 +21,7 @@
 - title: Publications
   type: time_table
   contents:
-    - title: <a href="https://ieeexplore.ieee.org/abstract/document/10801827">RMap Millimiter-Wave Radar Mapping through Volumetric Upsampling (IROS 2024)
+    - title: <a href="https://ieeexplore.ieee.org/abstract/document/10801827">RMap Millimiter-Wave Radar Mapping through Volumetric Upsampling</a> (IROS 2024)
     - title: <a href="https://openreview.net/forum?id=fviZhMCr62"> Tell Me Where to Go A Composable Framework for Context-Aware Embodied Robot Navigation</a> (CoRL 2023)
     - title: CryoSegment: Simultaneous Segmentation of diverse cellualr structures from Cryo-ET images (under review for Nature Methods)
     - title: <a href="https://aclanthology.org/2023.semeval-1.222">Grouped BERT for Multi-Label classification to reason the human values behind the arguments </a> (Sem-EVal 2023)
@@ -34,9 +34,9 @@
     - name : Machine Learning Frameworks
       value: Pytorch, Tensorflow, Keras
     - name: Libraries
-      value: OpenCV, ROS, Open3D, pcl, pandas, NumPy, scikit-learn, scipy, Matplotlib
+      value: OpenCV, ROS, Open3D, pcl, pandas, NumPy, scikit-learn, scipy, Matplotlib, CUDA
     - name: Tools
-      value: Git,  Visual Studio, PyCharm, Eclipse, IntelliJ, Meshlab, CloudCompare
+      value: Google Cloud Platform, AWS, Docker, Kubernetes, Git,  Visual Studio, PyCharm, Eclipse, IntelliJ, Meshlab, CloudCompare
     
 - title: Experience
   type: time_table
@@ -97,6 +97,7 @@
         -   Deep Reinforcement Learning
         -   Natural Language Processing
         -   Advanced Topics in Machine Learning
+        -   Datacenter Scale Computing
         -   Advanced Robotics
         -   Computer Vision 
         -   Computational Photography
