@@ -42,37 +42,44 @@
   type: time_table
   contents:
     - title: Research Assistant 
-      institution: <a href="https://arpg.github.io/">Autonomous Robotics and Perception Group</a>
-      year: Sep 2022 - Present
-      description:
-        - Developed the state-of-the-art generative transformer, <b>UpPoinTr</b>, for enhancing volumetric maps from sparse and noisy radar scans, surpassing the prior models by 8% in performance and generate <b>lidar-like navigable maps</b>
-        - Designed NavCon, a low bandwidth robot navigation framework using Large Language Models(<b>LLM</b>s), achieving a 71.3% success rate in guiding a <b>Spot</b> robot through intricate human commands in various environments
-        - Utilized only the radar data, sparse pointclouds compared to Lidar data, to overcome the challenges in visually degraded scenarios and improved the odometry estimation by 8% , using transformer and DeepVO architectures
-    - title: Research Assistant 
       institution: <a href="http://cryoem.colorado.edu/">Vignesh Kasinath Lab</a>
       year: Apr 2023 - Present
       description:
-        - Devised <b>Multi-UNet</b> architecture, seamlessly integrating the segmentation of multiple structures, resulting in a substantial <b>13%</b> boost in F1-score
-        - Designed <b>U-NeXt</b> architectures, combining the ConvNeXt and U-Net, specifically tailored for tomograms captured at different scales, resulting in a f1 score of <b>85%</b> for segmentation
+        - Designed end-to-end pipeline for semantic segmentation of low resolution and sparse cellular structures from cyro electron tomography images using Multi-UNet architecture, resulting in a significant 13% boost in F1-score
+        - Developed a 2-stage semi-supervised segmentation framework to segment cellular regions and fine-grained cellular structures, reducing the number of manual annotations by 85%
+        - Developed unsupervised algorithms to effectively segment different instances of chromosomes in a nucleus
+        - Designed advanced image processing pipelines for precise 3D pose extraction of cellualr structures from volumetric microscopic imaging data, leveraging connected components, spline interpolation, and geometric transformations
+        - Integrated fine-tuned Segment Anything Model (SAM) in the pipeline, eliminating manual parameter tuning and enhancing the performance of the segmentation masks by 20%
+    - title: Research Assistant 
+      institution: <a href="https://arpg.github.io/">Autonomous Robotics and Perception Group</a>
+      year: Sep 2022 - May 2024
+      description:
+        - Developed RMap, a volumetric mapping framework that transforms sparse radar pointclouds to high resolution 3D lidar-like maps, achieving a significant improvement in F1-score 0.59 compared to 0.19 of traditional radar maps
+        - Designed UpPoinTr transformer for enhancing volumetric maps, surpassing the prior models by 8% in F1-score
+        - Developed the pose-based region sampling algorithm to efficiently represent the 3D maps as minimal partial pointclouds, without any loss in details
+        - Developed custom CUDA pointcloud loss metrics to evaluate deviations from groundtruth in all three dimensions
+        - Enhanced the odometry estimation by 8% using only the mmWave radar, by extracting the features from 3D radar images using transformer encoder to predict a 6DoF pose
     - title: Computer Vision Research Engineer 
       institution: Samsung Semiconductord India R&D
       year: Jul 2020 - Jul 2022
       description:
-        - Developed <b>3D scene reconstruction</b> algorithm, exclusively leveraging depth from ToF sensors, achieving a real-time processing speed of <b>20fps</b>
-        - Improved the <b>accuracy by 5%</b> by detecting and removing outliers and also automated the pose alignment of output 3D scene with groundtruth to eliminate the manual alignment in MeshLab
-        - Reduced the latency of Remosaic deep learning models for 200M pixel camera sensor using quantization and pruning techniques by 10 % with an unnoticeable degradation of 0.1% in perceptual quality
-        - Optimized Samsung’s CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby reducing the algorithm runtime by 33%
+        - Developed real-time 3D scene reconstruction algorithm, only using depth from ToF sensors, optimized to 20fps
+        - Improved the accuracy by 5% of the reconstructed scene by removing outliers using gaussian smoothing
+        - Automated pose alignment of reconstructed 3D scene with groundtruth, eliminating manual alignment in MeshLab
+        - Reduced the latency of Remosaic deep learning models for 200M pixel camera sensor using quantization and pruning techniques by 10% with an unnoticeable degradation of 0.1% in perceptual quality
+        - Optimized Samsung CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby reducing the algorithm runtime by 33%
     - title: Software Engineer
       institution: Qualcomm
       year: Aug 2017 - Jun 2020
       description:
-        - Spearheaded the development and maintenance of python audio library to evaluate both the objective and perceptual audio quality of the Bluetooth headsets
-        - Enhanced python automated test framework with new features that populate test vectors and visualize audio output signals, leading to a 10%-15% reduction in both the validation and development teams’ efforts
+        - Spearheaded the development and maintenance of python audio library to evaluate both the objective and perceptual audio quality of Bluetooth headsets
+        - Enhanced python automated test framework with new features that populate test vectors and visualize audio output signals, leading to a 10%-15% reduction in both the validation and developments efforts
     - title: Research Intern
       institution: <a href="https://www.uncannyvision.com/">Eagle Eye Networks</a> 
       year: May 2017 - Jul 2017
       description:
-        - Leveraged YOLO for object localization, optical flow for trajectory estimation, achieving 83% accuracy in detecting location and trajectory anomalies through Incremental Spherical Clustering and frequency heatmap
+        - Predicted the pedestrian/car trajectory in a video by estimating the optical flow for the YOLO precited objects
+        - Achieved 72% accuracy in segmenting location and trajectory anomalies through Incremental Spherical Clustering
 
 
 - title: Awards
@@ -98,6 +105,7 @@
         -   Natural Language Processing
         -   Advanced Topics in Machine Learning
         -   Datacenter Scale Computing
+        -   Big Data Architecture
         -   Advanced Robotics
         -   Computer Vision 
         -   Computational Photography
