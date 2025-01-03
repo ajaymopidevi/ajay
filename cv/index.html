@@ -313,50 +313,6 @@
           
             <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
               <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
-                Sep 2022 - Present
-              </span>
-            </div>
-          
-          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-            
-            <h6 class="title font-weight-bold ml-1 ml-md-4">Research Assistant</h6>
-            
-            
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;"><a href="https://arpg.github.io/" rel="external nofollow noopener" target="_blank">Autonomous Robotics and Perception Group</a></h6>
-            
-            
-              <ul class="items">
-                
-                  <li>
-                    
-                      <span class="item">Developed the state-of-the-art generative transformer, <b>UpPoinTr</b>, for enhancing volumetric maps from sparse and noisy radar scans, surpassing the prior models by 8% in performance and generate <b>lidar-like navigable maps</b></span>
-                    
-                  </li>
-                
-                  <li>
-                    
-                      <span class="item">Designed NavCon, a low bandwidth robot navigation framework using Large Language Models(<b>LLM</b>s), achieving a 71.3% success rate in guiding a <b>Spot</b> robot through intricate human commands in various environments</span>
-                    
-                  </li>
-                
-                  <li>
-                    
-                      <span class="item">Utilized only the radar data, sparse pointclouds compared to Lidar data, to overcome the challenges in visually degraded scenarios and improved the odometry estimation by 8% , using transformer and DeepVO architectures</span>
-                    
-                  </li>
-                
-              </ul>
-            
-            
-          </div>
-        </div>
-      </li>
-    
-      <li class="list-group-item">
-        <div class="row">
-          
-            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
-              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
                 Apr 2023 - Present
               </span>
             </div>
@@ -373,13 +329,87 @@
                 
                   <li>
                     
-                      <span class="item">Devised <b>Multi-UNet</b> architecture, seamlessly integrating the segmentation of multiple structures, resulting in a substantial <b>13%</b> boost in F1-score</span>
+                      <span class="item">Designed end-to-end pipeline for semantic segmentation of low resolution and sparse cellular structures from cyro electron tomography images using Multi-UNet architecture, resulting in a significant 13% boost in F1-score</span>
                     
                   </li>
                 
                   <li>
                     
-                      <span class="item">Designed <b>U-NeXt</b> architectures, combining the ConvNeXt and U-Net, specifically tailored for tomograms captured at different scales, resulting in a f1 score of <b>85%</b> for segmentation</span>
+                      <span class="item">Developed a 2-stage semi-supervised segmentation framework to segment cellular regions and fine-grained cellular structures, reducing the number of manual annotations by 85%</span>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <span class="item">Developed unsupervised algorithms to effectively segment different instances of chromosomes in a nucleus</span>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <span class="item">Designed advanced image processing pipelines for precise 3D pose extraction of cellualr structures from volumetric microscopic imaging data, leveraging connected components, spline interpolation, and geometric transformations</span>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <span class="item">Integrated fine-tuned Segment Anything Model (SAM) in the pipeline, eliminating manual parameter tuning and enhancing the performance of the segmentation masks by 20%</span>
+                    
+                  </li>
+                
+              </ul>
+            
+            
+          </div>
+        </div>
+      </li>
+    
+      <li class="list-group-item">
+        <div class="row">
+          
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                Sep 2022 - May 2024
+              </span>
+            </div>
+          
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Research Assistant</h6>
+            
+            
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;"><a href="https://arpg.github.io/" rel="external nofollow noopener" target="_blank">Autonomous Robotics and Perception Group</a></h6>
+            
+            
+              <ul class="items">
+                
+                  <li>
+                    
+                      <span class="item">Developed RMap, a volumetric mapping framework that transforms sparse radar pointclouds to high resolution 3D lidar-like maps, achieving a significant improvement in F1-score 0.59 compared to 0.19 of traditional radar maps</span>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <span class="item">Designed UpPoinTr transformer for enhancing volumetric maps, surpassing the prior models by 8% in F1-score</span>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <span class="item">Developed the pose-based region sampling algorithm to efficiently represent the 3D maps as minimal partial pointclouds, without any loss in details</span>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <span class="item">Developed custom CUDA pointcloud loss metrics to evaluate deviations from groundtruth in all three dimensions</span>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <span class="item">Enhanced the odometry estimation by 8% using only the mmWave radar, by extracting the features from 3D radar images using transformer encoder to predict a 6DoF pose</span>
                     
                   </li>
                 
@@ -411,25 +441,31 @@
                 
                   <li>
                     
-                      <span class="item">Developed <b>3D scene reconstruction</b> algorithm, exclusively leveraging depth from ToF sensors, achieving a real-time processing speed of <b>20fps</b></span>
+                      <span class="item">Developed real-time 3D scene reconstruction algorithm, only using depth from ToF sensors, optimized to 20fps</span>
                     
                   </li>
                 
                   <li>
                     
-                      <span class="item">Improved the <b>accuracy by 5%</b> by detecting and removing outliers and also automated the pose alignment of output 3D scene with groundtruth to eliminate the manual alignment in MeshLab</span>
+                      <span class="item">Improved the accuracy by 5% of the reconstructed scene by removing outliers using gaussian smoothing</span>
                     
                   </li>
                 
                   <li>
                     
-                      <span class="item">Reduced the latency of Remosaic deep learning models for 200M pixel camera sensor using quantization and pruning techniques by 10 % with an unnoticeable degradation of 0.1% in perceptual quality</span>
+                      <span class="item">Automated pose alignment of reconstructed 3D scene with groundtruth, eliminating manual alignment in MeshLab</span>
                     
                   </li>
                 
                   <li>
                     
-                      <span class="item">Optimized Samsung’s CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby reducing the algorithm runtime by 33%</span>
+                      <span class="item">Reduced the latency of Remosaic deep learning models for 200M pixel camera sensor using quantization and pruning techniques by 10% with an unnoticeable degradation of 0.1% in perceptual quality</span>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <span class="item">Optimized Samsung CMOS camera sensor noise reduction algorithm with OpenMP parallel programming, thereby reducing the algorithm runtime by 33%</span>
                     
                   </li>
                 
@@ -461,13 +497,13 @@
                 
                   <li>
                     
-                      <span class="item">Spearheaded the development and maintenance of python audio library to evaluate both the objective and perceptual audio quality of the Bluetooth headsets</span>
+                      <span class="item">Spearheaded the development and maintenance of python audio library to evaluate both the objective and perceptual audio quality of Bluetooth headsets</span>
                     
                   </li>
                 
                   <li>
                     
-                      <span class="item">Enhanced python automated test framework with new features that populate test vectors and visualize audio output signals, leading to a 10%-15% reduction in both the validation and development teams’ efforts</span>
+                      <span class="item">Enhanced python automated test framework with new features that populate test vectors and visualize audio output signals, leading to a 10%-15% reduction in both the validation and developments efforts</span>
                     
                   </li>
                 
@@ -499,7 +535,13 @@
                 
                   <li>
                     
-                      <span class="item">Leveraged YOLO for object localization, optical flow for trajectory estimation, achieving 83% accuracy in detecting location and trajectory anomalies through Incremental Spherical Clustering and frequency heatmap</span>
+                      <span class="item">Predicted the pedestrian/car trajectory in a video by estimating the optical flow for the YOLO precited objects</span>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <span class="item">Achieved 72% accuracy in segmenting location and trajectory anomalies through Incremental Spherical Clustering</span>
                     
                   </li>
                 
@@ -630,6 +672,8 @@
             <li><span class="subitem">Advanced Topics in Machine Learning</span></li>
           
             <li><span class="subitem">Datacenter Scale Computing</span></li>
+          
+            <li><span class="subitem">Big Data Architecture</span></li>
           
             <li><span class="subitem">Advanced Robotics</span></li>
           
