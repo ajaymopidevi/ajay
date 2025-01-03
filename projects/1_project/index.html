@@ -124,7 +124,37 @@
           <article>
             <p>Cryo-electron tomography (cryo-ET) is a powerful imaging technique used to study the three-dimensional (3D) cellular components and macromolecular complexes in their near-native state, providing insights into their organization and interactions. The data acquired can be noisy, and the sample may undergo distortions during the imaging process.</p>
 
-<p>Using Machine Learning techniques U-Net and Autoencoder, we are able to successly segment the cellular structures like <b>ribosome, membrane, microtubules, filament</b>.</p>
+<p>Using Machine Learning models like U-Net, Segment Anything (SAM) and Autoencoder, we are able to successly segment the cellular structures like <b>ribosome, membrane, microtubules, filament</b>.</p>
+
+<div class="row">
+    <div class="caption">
+        
+
+<figure>
+
+  
+
+  <video src="/assets/video/L1_3D.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" autoplay="" controls=""></video>
+
+  
+
+</figure>
+
+    </div>
+</div>
+
+<p>My Contributions:</p>
+<ol>
+  <li>Designed end-to-end pipeline for semantic segmentation of low resolution and sparse cellular structures from cyro
+electron tomography images using Multi-UNet architecture, resulting in a significant 13% boost in F1-score</li>
+  <li>Developed a 2-stage semi-supervised segmentation framework to segment cellular regions and fine-grained cellular
+structures, reducing the number of manual annotations by 85%</li>
+  <li>Developed unsupervised algorithms to effectively segment different instances of chromosomes in a nucleus</li>
+  <li>Designed advanced image processing pipelines for precise 3D pose extraction of cellualr structures from volumetric
+microscopic imaging data, leveraging connected components, spline interpolation, and geometric transformations</li>
+  <li>Integrated fine-tuned Segment Anything Model (SAM) in the pipeline, eliminating manual parameter tuning and
+enhancing the performance of the segmentation masks by 20%</li>
+</ol>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -182,15 +212,6 @@
 
     </div>
 </div>
-
-<p>Our Contributions:</p>
-<ol>
-  <li>Developed a Multi-UNet architecture to improve the performance of multi-class segmentation by 15%</li>
-  <li>Added different strategies to effectively train the deep learning U-Net architectures from a sparsely labelled tomogram images.</li>
-  <li>Achieved 92% accuracy in segmenting electron structures like ribosomes, membrane using &lt;1% of the entire tomogram for training</li>
-  <li>Designed U-NeXt architectures, combining the ConvNeXt and U-Net, specifically tailored for tomograms captured at different scales, resulting in a f1 score of 85% for segmentation</li>
-</ol>
-
 
           </article>
 
