@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Assistant at University of Colorado Boulder | Computer Vision Engineer at Samsung
+subtitle: Machine Learning Engineer at Lendbuzz
 
 profile:
   align: right
