@@ -6,7 +6,7 @@ subtitle: Machine Learning Engineer at Lendbuzz
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: ../profile_pic.jpg
   image_circular: false # crops the image to make it circular
   
 news: true  # includes a list of news items
@@ -25,7 +25,7 @@ I am currently working on radar-based navigation and mapping to enable the perce
 </div>
 
 
-I am also working with <a href="http://cryoem.colorado.edu/">Kasinath's lab</a> at CU Boulder to segment the cellular structures like <a href="projects/1_project">ribosomes, membrane, micro-tubules, filaments</a> from the Cryo-ET tomogram. Cryo Electron Tomography combines cryogenic sample preparation, electron microscopy and computational image analysis to visualize the internal cellular structures and macro-molecules in their native state. Limiting the annotaions to <1% of entire images, we used machine learning techniques like Auto-encoders and U-Net to segment these structures.
+I am also working with <a href="http://cryoem.colorado.edu/">Kasinath's lab</a> at CU Boulder to segment the cellular structures like <a href="../_projects/1_project">ribosomes, membrane, micro-tubules, filaments</a> from the Cryo-ET tomogram. Cryo Electron Tomography combines cryogenic sample preparation, electron microscopy and computational image analysis to visualize the internal cellular structures and macro-molecules in their native state. Limiting the annotaions to <1% of entire images, we used machine learning techniques like Auto-encoders and U-Net to segment these structures.
 
 During my time at Samsung, I developed computer vision algorithms, combining traditional and deep-learning methods, to enhance the performance and accuracy of Samsung Camera sensors. A significant accomplishment was my work on real-time 3D scene reconstruction algorithms utilizing only the range data from ToF sensors. I have consistently delivered impressive results and further expanding my knowledge in the domain by working on diverse projects. For my remarkable contributions to various projects, I have received various accolades, including Employee of the Month.
 
