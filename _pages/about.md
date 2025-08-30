@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Engineer at Lendbuzz
+subtitle: Machine Learning Engineer at Lendbuzz | Ex-Samsung | Ex-Qualcomm
 
 profile:
   align: right
