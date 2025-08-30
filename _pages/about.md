@@ -12,7 +12,7 @@ profile:
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 I am a highly skilled professional with over 5 years of industry experience, specializing in Deep Learning for Robotics Perception. I have a strong academic background, demonstrated by an exceptional 4.0 GPA and other academia projects, and a proven research background with 2-lead authored publications and 1 co-authored publication. 
 

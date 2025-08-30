@@ -1,6 +1,8 @@
 github_users:
   - ajaymopidevi
 
+repo_description_lines_max: 2
+
 github_repos:
   - ajaymopidevi/Grouped-BERT
   - ajaymopidevi/Imaging-Courses
